@@ -10,4 +10,5 @@ router.get("*", function (req, res) {
     title: "error 404",
   });
 });
+//this will redirect to error 404 ejs file
 module.exports = router;
